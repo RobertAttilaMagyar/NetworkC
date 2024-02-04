@@ -12,8 +12,8 @@ include_directories(include)
 file(GLOB LIB_SOURCES "src/*.cpp")
 file(GLOB MAIN_SOURCE "main.cpp")
 
-add_library(MyLib ${LIB_SOURCES})
+add_library(GraphLib ${LIB_SOURCES})
 
 add_executable(netmain ${MAIN_SOURCE})
 
-target_link_libraries(netmain MyLib)
+target_link_libraries(netmain GraphLib)

@@ -39,11 +39,11 @@ class _BaseGraph
          
          void addEdgesFrom(std::vector<std::pair<int, int>> edges);
 
-         virtual Matrix<int> adjacency() = 0;
+//         virtual Matrix<int> adjacency() = 0;
 
-         virtual std::map<int, std::vector<int>> adjacencyList() = 0;
+//         virtual std::map<int, std::vector<int>> adjacencyList() = 0;
 
-         virtual std::map<int, double> pagerank() = 0;
+//         virtual std::map<int, double> pagerank() = 0;
 
-         virtual std::map<int, double> eigVectCentrality() = 0;
+//         virtual std::map<int, double> eigVectCentrality() = 0;
 };

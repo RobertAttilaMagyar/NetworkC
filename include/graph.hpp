@@ -2,13 +2,23 @@
 #include "_math.hpp"
 
 
-class Graph : _BaseGraph
+class Graph : public _BaseGraph
 {
 
     public:
 
-    Matrix<int> adjacency();
+    Graph()
+    {
+    };
 
-    std::map<int, std::vector<int>> adjacencyList();
+//    Matrix<int> adjacency(){};
 
-}
+//    std::map<int, std::vector<int>> adjacencyList();
+
+//    std::map<int, std::double> pagerank();
+
+//    std::map<int, double> eigVectCentrality();
+
+
+
+};
